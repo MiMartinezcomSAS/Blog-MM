@@ -1,0 +1,21 @@
+.vegas-overlay {
+	background:transparent url(../images/overlays/01.png);
+	opacity:0.5;
+	z-index:-1;
+	-webkit-backface-visibility: hidden;
+}
+
+.vegas-background {
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
+	z-index:-2;
+    /* counteracts global img modification by twitter bootstrap library */
+    max-width: none !important;
+	
+
+	
+
+
+	background:#000;
+	
+}
