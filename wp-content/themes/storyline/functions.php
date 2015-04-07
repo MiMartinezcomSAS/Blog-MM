@@ -413,7 +413,7 @@ function has_shortcode_property($shortcode = '') {
 //Add diferent images sizes
 add_image_size('related-posts', 200, 200, $crop = true);
 add_image_size('circle-big', 480, 480, $crop = true);
-add_image_size('standart-image-small', 720, 305, $crop = true);
+add_image_size('standart-image-small', 650, 365, $crop = true);
 add_image_size('standart-image', 720, 405, $crop = true);
 add_image_size('full-width-content', 720, 205, $crop = true);
 if(function_exists('add_theme_support')) {

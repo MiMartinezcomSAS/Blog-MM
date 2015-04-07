@@ -7110,3 +7110,24 @@ padding: 0;
 width: 102.5%;
 overflow: visible !important;
 }
+
+.hideifneed{
+	padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+}
+.hideifneed .read-more-init{
+  float: right;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 5px 15px;
+  margin-top: -99px;
+  font-size: 19px;
+  font-weight: lighter !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hideifneed .read-more-init .icon-long-arrow-right{
+	display:none;
+}
+
